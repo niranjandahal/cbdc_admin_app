@@ -64,8 +64,8 @@ class BankManagement extends StatelessWidget {
                               print("Suspending ${bank["name"]}");
                             },
                             style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.red),
-                            child: Text("Suspend"),
+                                backgroundColor: Colors.red.shade500),
+                            child: Text("Suspend",style: TextStyle(color: Colors.white),),
                           ),
                       ],
                     ),

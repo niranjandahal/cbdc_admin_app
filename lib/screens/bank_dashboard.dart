@@ -22,18 +22,33 @@ class BankDashboard extends StatelessWidget {
                 spacing: 10,
                 runSpacing: 10,
                 children: [
-                  StatCard(title: "CBDC Balance", value: "500,000"),
-                  StatCard(title: "Bank Transactions", value: "300"),
-                  StatCard(title: "Total Users", value: "1200"),
-                  StatCard(title: "KYC Pending", value: "25"),
+                  StatCard(
+                    title: "CBDC Balance",
+                    value: "500,000",
+                    icon: Icons.balance,
+                  ),
+                  StatCard(
+                    title: "Bank Transactions",
+                    value: "300",
+                    icon: Icons.money,
+                  ),
+                  StatCard(
+                    title: "Total Users",
+                    value: "1200",
+                    icon: Icons.person,
+                  ),
+                  StatCard(
+                      title: "KYC Pending",
+                      value: "25",
+                      icon: Icons.verified_user_sharp),
                 ],
               ),
               SizedBox(height: 20),
 
               // 📌 2. Transaction Chart
               Container(
-                height: 200,
-                child: Chart(),
+                height: 400,
+                child: TransactionChart(),
               ),
               SizedBox(height: 20),
 
@@ -44,12 +59,6 @@ class BankDashboard extends StatelessWidget {
               UserManagement(),
 
               SizedBox(height: 20),
-
-              // 📌 5. Recent Transactions Table (Make it Scrollable)
-              SizedBox(
-                height: 300, // ✅ Give it a fixed height
-                child: TransactionList(),
-              ),
             ],
           ),
         ),
