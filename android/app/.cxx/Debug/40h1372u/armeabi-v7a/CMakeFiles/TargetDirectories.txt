@@ -1,0 +1,2 @@
+C:/Users/heckner/OneDrive/Desktop/CBDC project/cbdc_admin/android/app/.cxx/Debug/40h1372u/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/heckner/OneDrive/Desktop/CBDC project/cbdc_admin/android/app/.cxx/Debug/40h1372u/armeabi-v7a/CMakeFiles/rebuild_cache.dir

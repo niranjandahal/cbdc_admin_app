@@ -1,8 +1,18 @@
+import 'package:cbdc_admin/provider/bankprovider.dart';
 import 'package:cbdc_admin/screens/landing_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(CBDCAdminApp());
+  runApp(
+    //multiprovider
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => BankProvider()),
+      ],
+      child: CBDCAdminApp(),
+    ),
+  );
 }
 
 class CBDCAdminApp extends StatelessWidget {

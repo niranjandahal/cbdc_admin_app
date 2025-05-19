@@ -1,0 +1,2 @@
+C:/Users/heckner/OneDrive/Desktop/CBDC project/cbdc_admin/android/app/.cxx/Debug/40h1372u/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/heckner/OneDrive/Desktop/CBDC project/cbdc_admin/android/app/.cxx/Debug/40h1372u/x86_64/CMakeFiles/rebuild_cache.dir
